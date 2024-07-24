@@ -15,19 +15,22 @@
 
     ``` node ./db/populatedb```
 
+3. start Express server
+
+    ``` npm run serverstart ```
 
 ### SELECT * FROM usernames
-3. visit http://localhost:3000/
+4. visit http://localhost:3000/
 
 ### insert new row : INSERT INTO usernames (username) VALUES (\<values>)
 
-4. visit http://localhost:3000/new
+5. visit http://localhost:3000/new
 
 ### search like sql : SELECT * FROM usernames WHERE username LIKE %A%
-5. visit http://localhost:3000/?search=A  
+6. visit http://localhost:3000/?search=A  
 
 ### delete all rows in a table : DELETE FROM usernames
-6. visit http://localhost:3000/delete
+7. visit http://localhost:3000/delete
 
 after delete all, backto step 2 to populate again
 
